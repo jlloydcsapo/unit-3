@@ -1,32 +1,43 @@
+#chart-container {
+    width: 100%;
+    height: 40%;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: #d8f3dc;
+
+}
+
 #map-container {
-    width: 1250px;
-    height: 700px;
+    width: 100%;
+    height: 60%;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: #d8f3dc;
+
 }
 
 #title {  
-    width: 1250px;  
-    height: 60px;  
-    background-color: #96ee89;
+    width: 100%;  
+    height: 45px;  
+    background-color: #d8f3dc;
     line-height: 0px;  
     text-align: center;  
-    border: solid #08542f;
+    border: solid #081c15;
     border-radius: 25px;
     box-sizing: border-box;
 } 
 
+.map {
+    width: 100%;
+}
+
 .states {
-    stroke: #96ee89;
+    stroke: #d8f3dc;
     fill: #08542f;
     stroke-width: 1px;
 }
 
-.map {
-    border-style: solid;
-    border-radius: 25px;
-    background-color: #96ee89;
-}
-
 h1 {
-    font-size: 45px;
+    font-size: 35px;
     word-spacing: .75em;
 }
