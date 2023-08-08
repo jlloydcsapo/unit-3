@@ -101,7 +101,7 @@ function setChart(data, colorScale) {
         .attr("fill", function(d) {
             return colorScale(d.data[expressed]);
         })
-        .append("text")
+        .append("text")  //TRYING TO ADD TEXT HERE
         .attr("x", d => d.x)
         .attr("y", d => chartHeight - marginBottom - radius - padding - d.y)
         .attr("fill", "#000")
