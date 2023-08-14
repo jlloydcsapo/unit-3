@@ -369,7 +369,10 @@ function dehighlight(props){
 //function to create dynamic label
 function setLabel(props){
     //label content
-    var labelAttribute = "<h1>" + props[expressed] +
+    var labelAttribute ="<h1>"
+    + props.NAME +
+       "</h1>" +"<h1>"
+     + props[expressed] +
         "</h1><b>" + expressed + "</b>";
 
     //create info label div
@@ -377,6 +380,9 @@ function setLabel(props){
         .append("div")
         .attr("class", "infolabel")
         .attr("id", props.NAME + "_label")
+        .html("<h1>"
+        + props.NAME +
+           "</h1>")
         .html(labelAttribute);
 
     var stateName = infolabel.append("div")
