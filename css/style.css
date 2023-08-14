@@ -27,10 +27,6 @@
     box-sizing: border-box;
 } 
 
-.map {
-    width: 100%;
-}
-
 .states {
     stroke: #d8f3dc;
     fill: #08542f;
